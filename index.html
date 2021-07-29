@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Say Təxmin Oyunu</title>
+</head>
+
+<body>
+    <div class="alert alert-danger" role="alert">
+        Yanlış daxiletmə. 1 ilə 50 arasında say daxil edin.
+      </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-head">
+                <h3>Say Təxmin Oyunu</h3>
+                <p>Oyunun qaydaları çox sadədir 1 ilə 50 arasında gizli sayı təxmin et. 7 şansın var</p>
+            </div>
+            <div class="card-body">
+                <form>
+                    <input type="text" id="input" placeholder="Təxmininiz">
+                    <button type="reset" onclick="funksiya();" class="btn btn-success">Təsdiqlə</button>
+                    <p class="text-center info"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
